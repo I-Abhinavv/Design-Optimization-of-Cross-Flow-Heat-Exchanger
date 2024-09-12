@@ -1,0 +1,74 @@
+Problem description
+In many researches held on Heat exchangers it is specified that
+effectiveness is the best way to measure its efficiency. So, in
+such cases, it is of extreme important to find the best design at
+which we get the Maximum effectiveness of Heat exchanger,
+which is the objective of this work.
+ To study the Effectiveness variation by varying the baffles
+in cross flow heat exchanger. Computational [5] validation of
+experimental data has rarely been conducted in the cross flow
+heat exchangers. The current work aims to not only add to the
+computational validations of cross flow heat exchangers [4]
+but also to thoroughly investigate the flow physics. Heat
+exchanger is well understood from a theoretical flow
+perspective but not as well from a computational
+aerodynamics perspective.
+: Construction of Geometry.
+This problem has three geometries namely,
+1. Hot fluid section
+2. pipe section
+3. cold fluid section
+The geometries of given problem are created by using
+SOLIDWORKS software. The dimensions of the geometries
+are:
+Shell cross section: 130 x 100 mm
+Shell inlet and outlet : 80 x 80 mm
+Height of the shell : 400mm
+Tube internal diameter =46mm,
+tube thickness =2mm
+Length of tubes =420mm
+No. of tubes=3 
+Setting physics of the Problem
+Since in this problem consists of three phases we need to
+select three physics, one for gas, second for liquid and another
+for SOLID.
+Physics selected for gas and liquid :-
+ Three Dimensional Flow.
+ stationary
+ Constant density
+ Steady Flow.
+ Segregated flow model
+ TURBULENT FLOW with K-Epsilon model.
+Physics selected for solid :-
+ Three Dimensional Flow.
+ STATIONARY
+ CONSTANT DENSITY
+ Steady Flow.
+ Segregated solid energy.
+The Boundary Conditions
+In this problem there are two inlet one for coolant other
+for hot steam through the pipe, both are velocity inlet
+type. Similarly there are two outlets in which pressure
+outlet type for the hot steam (pipe fluid) and flow split
+outlet type for coolant outlet. The solid pipe cross
+section is given as symmetry type and remaining are
+keep as a wall which are smooth, no slip and adiabatic.
+The velocity at both the inlet is 0.05 m/s. the pressure
+at the tube outlet is one atmosphere.
+Coolant temperature =290k
+Hot steam temperature = 420k.
+Turbulent intensity is 5% for hot steam and 10% for
+coolant liquid used. The length scale are 5mm and
+10mm for steam and coolant respectively.
+ CONCLUSIONS
+The results states that simple modification in the
+baffle plate arrangement and design gives the
+significant changes in the effectiveness of the heat
+exchanger. In case A and E, the baffle length ends
+above and below the third tube, shows the good
+effectiveness and less dead regions are recirculation
+zones compared to the cases B and D. But in the
+case of C, the pressure buildup at the baffle end and
+so the recirculation zone is large. So if the tubes are
+fully submerged and the uniform flow over the
+tubes gives the better effectiveness. 
